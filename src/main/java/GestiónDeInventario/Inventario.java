@@ -15,13 +15,12 @@ public class Inventario {
     }
 
     public int disminuirInventario(Auto auto, int cantidad) {
-        Auto a1 = autos.buscarAutosComunes(auto);
-        if(a1.getCantidad()<cantidad){
+        if(autos.buscarAutosComunes(auto).getCantidad()<cantidad){
             System.out.println("No existe el número indicado en stock");
-            return a1.getCantidad();
+            return autos.buscarAutosComunes(auto).getCantidad();
         }else{
-            a1.setCantidad(a1.getCantidad() - cantidad);
+            autos.buscarAutosComunes(auto).setCantidad(autos.buscarAutosComunes(auto).getCantidad() - cantidad);
         }
-        return a1.getCantidad();
+        return autos.buscarAutosComunes(auto).getCantidad();
     }
 }
