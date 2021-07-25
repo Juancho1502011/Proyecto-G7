@@ -21,7 +21,7 @@ public class FacturacionTest {
 
     @Test
     public void given_venta_not_null_when_crearFactura_then_ok() {
-        Venta venta = new Venta(new Auto("Chevrolet", "Grand vitara", 2019, "85439685",
+        Venta venta = new Venta(new Auto("Chevrolet", "Grand vitara", 2019,
                 "verde"), new Cliente("Andrés", "1234567890", "Quito"), "20/05/2020",
                 new Empleado("Carlos", "0987654321", "Latacunga"));
         assertEquals(Factura.class, facturacion.crearFactura(venta).getClass());

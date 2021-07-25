@@ -18,23 +18,23 @@ public class ListaDeFacturasTestParameter {
     @Parameterized.Parameters
     public static Iterable<Object[]> parameters(){
         Factura factura1 = new Factura("2012456895","19/04/2021",new Venta(new Auto("Chevrolet",
-                "Grand vitara", 2019, "85439685", "verde"), new Cliente("Andrés",
+                "Grand vitara", 2019, "verde"), new Cliente("Andrés",
                 "1032568495", "Quito"), "20/05/2020", new Empleado("Carlos", "0987654321",
                 "Latacunga")));
         Factura factura2 = new Factura("2021564882","18/06/2019",new Venta(new Auto("Chevrolet",
-                "Grand vitara", 2019, "85439685", "gris"), new Cliente("Andrés",
+                "Grand vitara", 2019, "gris"), new Cliente("Andrés",
                 "1032568495", "Quito"), "20/05/2020", new Empleado("Andres", "0264579134",
                 "Quito")));
         Factura factura3 = new Factura("2015456456","12/10/2020",new Venta(new Auto("Chevrolet",
-                "Grand vitara", 2019, "85439685", "blanco"), new Cliente("Andrés",
+                "Grand vitara", 2019, "blanco"), new Cliente("Andrés",
                 "1032568495", "Quito"), "20/05/2020", new Empleado("Pablo", "4365718920",
                 "Guayaquil")));
         Factura factura4 = new Factura("2017164863","02/11/2020",new Venta(new Auto("Chevrolet",
-                "Grand vitara", 2019, "85439685", "rojo"), new Cliente("Andrés",
+                "Grand vitara", 2019, "rojo"), new Cliente("Andrés",
                 "1032568495", "Quito"), "20/05/2020", new Empleado("Alex", "1953468020",
                 "Cuenca")));
         Factura factura5 = new Factura("2020483548","17/02/2021",new Venta(new Auto("Chevrolet",
-                "Grand vitara", 2019, "85439685", "azul"), new Cliente("Andrés",
+                "Grand vitara", 2019, "azul"), new Cliente("Andrés",
                 "1032568495", "Quito"), "20/05/2020", new Empleado("verónica", "1234567890",
                 "Ambato")));
         String string1="2012456895";

@@ -60,7 +60,7 @@ public class Venta {
                         "\nCédula: " + cliente.getCedula() +
                         "\nDirección: " + cliente.getDireccion() +
                         "\nDetalle\nMarca       Modelo      Año     Número de Serie     Color\n"
-                        + auto.getMarca() + "      " + auto.getModelo() + "      " + auto.getAño() + "      " + auto.getNumeroDeSerie() + "      " + auto.getColor() + "      \nVenta realizada por: " + empleado.getNombre();
+                        + auto.getMarca() + "      " + auto.getModelo() + "      " + auto.getAño() + "      " + auto.getColor() + "      \nVenta realizada por: " + empleado.getNombre();
         return textoVenta;
     }
 

@@ -8,7 +8,7 @@ public class Auto {
     private String color;
     private int cantidad;
 
-    public Auto(String marca, String modelo, int año, String numeroDeSerie, String color) {
+    public Auto(String marca, String modelo, int año, String color) {
         this.marca = marca;
         this.modelo = modelo;
         this.año = año;
@@ -27,10 +27,6 @@ public class Auto {
 
     public int getAño() {
         return año;
-    }
-
-    public String getNumeroDeSerie() {
-        return numeroDeSerie;
     }
 
     public String getColor() {
