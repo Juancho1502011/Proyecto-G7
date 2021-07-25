@@ -5,6 +5,7 @@ GestiónDeInventario\InventarioEjecutable.class
 Facturacion\ListaDeFacturas.class
 Facturacion\AutorizationResponse$AutorizationStatus.class
 GestiónDeCompras\Compra.class
+GestiónDeInventario\AutorizacionInventario.class
 GestorDeVentas\Venta.class
 Facturacion\AutorizationResponse.class
 Facturacion\AutorizationRequest.class

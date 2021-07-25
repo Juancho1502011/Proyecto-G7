@@ -3,3 +3,4 @@ Facturacion\ListaDeFacturasTestParameter.class
 GestiónDeInventario\InventarioTest.class
 Facturacion\AutorizacionSRITest.class
 Facturacion\ListaDeFacturasTest.class
+GestiónDeInventario\AutorizacionInventarioTest.class
