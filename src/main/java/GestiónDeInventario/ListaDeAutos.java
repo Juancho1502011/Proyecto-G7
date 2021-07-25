@@ -68,4 +68,13 @@ public class ListaDeAutos {
         }
         return resultado;
     }
+
+    public String mostrarInventario() {
+        String resultado="";
+        for(Auto a: getListaAutos()){
+            resultado+=a.getMarca()+" "+a.getModelo()+" "+a.getAño()+
+                    " "+a.getColor()+" "+a.getCantidad()+"\n";
+        }
+        return resultado;
+    }
 }
